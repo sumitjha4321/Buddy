@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TransparentStatusBar" parent="AppTheme.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!--used for profile activity-->
+    <style name="TestTransparentStatusBar" parent="AppTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="MediaActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+    </style>
+
+
+    <!--
+
+    <item name="android:windowTranslucentStatus">true</item>
+
+    is available above API>=19
+
+     Advantage: By default, it sets the flag "View.SYSTEM_UI_FLAG_LAYOUT_STABLE" and
+         "View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN" so that the view appears behind the status bar too.
+     Disadvantage: makes status bar semi transparent
+
+     But above api >=21,
+         use <item name="android:statusBarColor">@android:color/transparent</item>
+
+     This makes the status bar FULLY TRANSPARENT,
+     But, you have to set those flags to make the view appear behind status bar too.
+
+      -->
+
+
+</resources>

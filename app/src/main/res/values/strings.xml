@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Buddy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_closed">Drawer closed</string>
+    <string name="google_map_api_key">AIzaSyBSdXxXQg85IGyjZ5E02R382U8TNGimO7k</string>
+</resources>

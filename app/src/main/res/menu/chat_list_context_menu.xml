@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/chat_list_delete"
+        android:title="Delete chat" />
+    <item
+        android:id="@+id/chat_list_hide"
+        android:title="Hide chat" />
+
+    <!--TODO: ADD MARK TO TOP-->
+
+
+</menu>
